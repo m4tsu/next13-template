@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next --fix",
+    "lint:fix": "next lint --fix",
     "format": "prettier --check src/**/*.{ts,tsx,js,jsx,json,md}",
     "format:fix": "prettier --write src/**/*.{ts,tsx,js,jsx,json,md}",
     "type-check": "tsc --noEmit",
